@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.basliq {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+}
+
+nav img {
+    width: 27%;
+    height: 100px;
+    margin-left: 100px;
+}
+
+nav ul {
+    margin-top: 35px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: .2s;
+}
+
+nav a:hover {
+    color: #ffc800;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding-top: 200px;
+}
+
+header h2 {
+    font-size: 45px;
+    color: white;
+}
+
+header h1 {
+    font-size: 68px;
+    color: white;
+    margin-top: 20px
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    padding: 25px 45px;
+    background-color: #ffc800;
+    margin-top: 50px;
+    display: inline-block;
+    border-radius: .1cm;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+header a:hover {
+    opacity: .9;
+}
+
+.services {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.services h1 {
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.services p {
+    font-size: 18px;
+}
+
+.services .items {
+    width: 80%;
+    height: 60vh;
+    margin: 30px 130px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.services .items i {
+    font-size: 60px;
+    color: white;
+    background-color: #ffc800;
+    padding: 30px 30px;
+    margin-top: 10px;
+    border-radius: 100%;
+}
+
+.services .items h1 {
+    font-size: 30px;
+    color: #212529;
+}
+
+.services .items p {
+    margin-top: 20px;
+    color: #6c757d;
+}
+
+.portfolio {
+    width: 100%;
+    background-color: #f8f9fa;
+}
+
+.portfolio .yazilar {
+    text-align: center;
+    padding-top: 90px;
+}
+
+.portfolio h1 {
+    font-size: 35px;
+    color: #212529;
+    margin-bottom: 10px;
+}
+
+.portfolio p {
+    color: #6c757d;
+    margin-bottom: 50px;
+}
+
+.portfolio .items {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio .item {
+    width: 30%;
+    height: 300px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.portfolio .item img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio .altyazi {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+.portfolio .ust {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffc800;
+    bottom: 0px;
+    opacity: 0;
+    font-size: 100px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    transition: .5s;
+}
+
+.portfolio .item:hover .ust {
+    opacity: .9;
+}
+
+/* .about{
+    width: 100%;
+    height: 100vh;
+}
+.about .yazilar{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+.about .yazilar h1{
+    font-size:35px;
+    color: #212529;
+}
+.about .yazilar p{
+    color: #6c757d;
+    font-size: 19px;
+    padding-top: 8px;
+}
+.about .part1{
+    box-sizing: border-box;
+    width:80%;
+    height: 300px;
+    margin: auto;
+}
+.about .sekil{
+    display: inline-block;
+    width:20%;
+    height: 200px;
+    margin:30px 420px;
+
+}
+.about img{
+    height: 100%;
+    width: 100%;
+    border: 6px solid rgb(219, 219, 219);
+    border-radius: 100%;
+}
+.about .text1{
+    margin-top: 30px;
+    width: 30%;
+    position: absolute;
+    text-align: right;
+}
+.about .text1 h1{
+    margin-bottom: 20px;
+    font-size:28px;
+    color: #212529;
+}
+.about .text1 p{
+    color: #6c757d;
+    font-size: 22px;
+} */
+.team {
+    width: 100%;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.team .text {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.team .text h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #212529;
+}
+
+.team .text p {
+    font-size: 18px;
+    color: #6c757d;
+    margin-bottom: 70px;
+}
+
+.person {
+    width: 90%;
+    height: 400px;
+    margin: 10px auto;
+    display: flex;
+}
+
+.person img {
+    width: 50%;
+    border: 6px solid rgb(218, 215, 215);
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+.persons {
+    text-align: center;
+}
+
+.persons h1 {
+    font-size: 30px;
+    color: #212529;
+    margin-bottom: 10px;
+}
+
+.persons p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #6c757d;
+}
+
+.persons i {
+    font-size: 20px;
+    color: white;
+    background-color: #212529;
+    border-radius: 100%;
+    padding: 10px 10px;
+    margin-right: 10px;
+}
+
+.team .alt {
+    width: 60%;
+    height: 100px;
+    margin-left: 250px;
+    color: #6c757d;
+    font-size: 20px;
+}
+
+.sirketler {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sirketler a {
+    color: black;
+    width: 12%;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.contact {
+    width: 100%;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png);
+    background-color: #212529;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.contact .text {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contact .text h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.contact .text p {
+    color: #6c757d;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.inputlar {
+    display: flex;
+}
+
+.sol {
+    width: 45%;
+    height: 150px;
+    margin-left: 100px;
+}
+
+.sol input {
+    height: 70px;
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: .2cm;
+    padding-left: 10px;
+}
+
+.sag {
+    margin-left: 25px;
+}
+
+.sag textarea {
+    box-sizing: border-box;
+    border-radius: .1cm;
+    padding: 10px 10px;
+}
+
+.contact button {
+    background-color: #ffc800;
+    padding: 25px 50px;
+    margin-top: 30px;
+    border-radius: .2cm;
+    border-color: transparent;
+    color: white;
+    font-weight: 900;
+    opacity: .7;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .iconlar {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #212529;
+    border-radius: 100%;
+    padding: 13px 13px;
+
+}
+
+footer .son a {
+    text-decoration: none;
+    color: #212529;
+    margin-left: 20px;
+}
